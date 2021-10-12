@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <!--<link href="static/style.css" rel="stylesheet" />-->
+  <link href="static/style.css" rel="stylesheet">
+  <style>
+    body {
+      background-color:#d24dff;
+
+}
+ </style>
+</head>
+
+<body>
+
+  <center>
+    <div class='cont'>
+
+
+
+      <h1>OpenCv</h1>
+
+
+      <h1>Plaka Tanıma Sistemi</h1>
+
+
+
+    </div>
+
+
+    <img src="{{url_for('load_img')}}" alt='img'>
+    
+    <a href="/" class='btn'>geri</a>
+
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          {% for msg in messages %}
+            <h1>{{msg}}</h1>
+          {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+
+  </center>
+
+
+</body>
+
+</html>

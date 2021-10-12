@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Plaka Tanıma Sistemi</title>
+   <meta charset="UTF-8">
+  
+   <link href="static/style.css" rel="stylesheet">
+   <style>
+      body {
+    background: -webkit-linear-gradient(#93B874, #C9DCB9); 
+    background: -o-linear-gradient(#93B874, #C9DCB9); 
+    background: -moz-linear-gradient(#93B874, #C9DCB9); 
+    background: linear-gradient(#93B874, #C9DCB9); 
+    background-color: #93B874; 
+}
+   </style>
+ 
+
+</head>
+
+
+<body>
+
+   <center>
+      <div class='cont'>
+      
+         <font size="15" face="Tahoma" color="black">Hoşgeldiniz</font>
+         <br>
+         <font size="15" face="Tahoma" color="black">Araç plaka tanıma sistemi</font>
+    
+
+        
+      </div>
+
+
+      <form method="POST" action="{{url_for('home')}}" enctype="multipart/form-data">
+         
+         <input type="file" name='image' class='btn'><br><br><br>
+         <input type="submit" class='btn'>
+      </form>
+      <img src="https://www.ozekirobot.com/attachments/6144/Lead_image.png" style="height:400px;width:550px"class="img-rounded" alt="Gesture">  
+
+   </center>
+   
+  
+
+
+</body>
+
+
+
+
+
+</html>
