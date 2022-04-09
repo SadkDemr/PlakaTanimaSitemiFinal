@@ -1,11 +1,10 @@
 
 PLAKA TANIMA SİSTEMİ
 Automatic Number Plate Recognition
- Proje Adı: Plaka Tanıma Sistemi
-Proje Türü:Yazılım Mühendisliği Lisans Programı IV. Yarıyıl Mühendislik Projesi II Dersi Projesi.
 
-Proje Takımı:
-•	Muhammed Sadık DEMİR   (Yazılım Mühendisliği Bölümü 2. Sınıf Öğrencisi)
+![image](https://parklio.com/assets/img/parking-solutions/lpr/parklio-anpr-parking-license-plate-recognition-lpr.webp)
+
+
 Projenin Amacı:
 Açık kaynaklı OpenCv ve Easy OCR kütüphanesi kullanılarak Python programlama dili ile plaka tanıma sistemi geliştirmek.
 Projenin Çıktısı:
